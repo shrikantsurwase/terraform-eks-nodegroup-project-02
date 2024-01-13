@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/ankit-jagtap-devops/terraform-eks-nodegroup.git'
+                git 'https://github.com/shrikantsurwase/terraform-eks-nodegroup-project-02.git'
             }
         }
     
